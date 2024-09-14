@@ -8,7 +8,7 @@ Este projeto foi desenvolvido para automatizar o processo de extração e monito
 - **cnes.py**: Script Python que realiza o download e extração de arquivos do CNES a partir de um servidor FTP.
 - **QueryMontagemBancoCNES.sql**: Conjunto de queries SQL utilizado para criar e preparar o banco de dados no **PostgreSQL**, incluindo os tratamentos necessários.
 - **QueryExtraçãoPainel.sql**: Query SQL que extrai os dados necessários em formato CSV para serem utilizados no painel de monitoramento no **Power BI**.
-- **CNES.csv**: Arquivo CSV gerado pela query `QueryExtraçãoPainel.sql`, utilizado para alimentar o painel de monitoramento.
+- **CNES.csv**: Amostra do arquivo CSV gerado pela query `QueryExtraçãoPainel.sql`, utilizado para alimentar o painel de monitoramento.
 
 ### Arquivos Utilizados para Montagem do CNES
 Os seguintes arquivos são extraídos e processados para alimentar o banco de dados e o painel de monitoramento:
